@@ -141,7 +141,7 @@ public class ViewEvaluation extends AppCompatActivity {
         if (isIntentSafe) {
             startActivity(intent);
         } else {
-            Toast.makeText(this, "Please download a PDF viewer app from the" +
+            Toast.makeText(this, "Please download a PDF viewer app from the " +
                     "Google Play Store. Once downloaded return to this" +
                     " screen to create the evaluation", Toast.LENGTH_LONG).show();
         }
